@@ -16,5 +16,11 @@ namespace Log_In_Form
         {
             InitializeComponent();
         }
+
+        private void btnAddUser_Click(object sender, EventArgs e)
+        {
+            new UserDetails().Show();
+           // SetVisibleCore(false);
+        }
     }
 }
